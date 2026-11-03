@@ -1,0 +1,208 @@
+---
+name: Luminous Scribe
+colors:
+  surface: '#f9f9ff'
+  surface-dim: '#cfdaf2'
+  surface-bright: '#f9f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f0f3ff'
+  surface-container: '#e7eeff'
+  surface-container-high: '#dee8ff'
+  surface-container-highest: '#d8e3fb'
+  on-surface: '#111c2d'
+  on-surface-variant: '#3e484f'
+  inverse-surface: '#263143'
+  inverse-on-surface: '#ecf1ff'
+  outline: '#6e7980'
+  outline-variant: '#bdc8d1'
+  surface-tint: '#00668a'
+  primary: '#00668a'
+  on-primary: '#ffffff'
+  primary-container: '#38bdf8'
+  on-primary-container: '#004965'
+  inverse-primary: '#7bd0ff'
+  secondary: '#0051d5'
+  on-secondary: '#ffffff'
+  secondary-container: '#316bf3'
+  on-secondary-container: '#fefcff'
+  tertiary: '#50616b'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#a2b4bf'
+  on-tertiary-container: '#364650'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#c4e7ff'
+  primary-fixed-dim: '#7bd0ff'
+  on-primary-fixed: '#001e2c'
+  on-primary-fixed-variant: '#004c69'
+  secondary-fixed: '#dbe1ff'
+  secondary-fixed-dim: '#b4c5ff'
+  on-secondary-fixed: '#00174b'
+  on-secondary-fixed-variant: '#003ea8'
+  tertiary-fixed: '#d3e5f1'
+  tertiary-fixed-dim: '#b7c9d5'
+  on-tertiary-fixed: '#0c1e26'
+  on-tertiary-fixed-variant: '#384953'
+  background: '#f9f9ff'
+  on-background: '#111c2d'
+  surface-variant: '#d8e3fb'
+typography:
+  display-hero:
+    fontFamily: Bricolage Grotesque
+    fontSize: 3.75rem
+    fontWeight: '700'
+    lineHeight: 4.25rem
+    letterSpacing: -0.03em
+  display-hero-mobile:
+    fontFamily: Bricolage Grotesque
+    fontSize: 2.25rem
+    fontWeight: '700'
+    lineHeight: 2.75rem
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Bricolage Grotesque
+    fontSize: 2.5rem
+    fontWeight: '600'
+    lineHeight: 3rem
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Bricolage Grotesque
+    fontSize: 1.75rem
+    fontWeight: '600'
+    lineHeight: 2.25rem
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Bricolage Grotesque
+    fontSize: 1.75rem
+    fontWeight: '600'
+    lineHeight: 2.25rem
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Bricolage Grotesque
+    fontSize: 1.25rem
+    fontWeight: '600'
+    lineHeight: 1.75rem
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Literata
+    fontSize: 1.25rem
+    fontWeight: '400'
+    lineHeight: 2rem
+    letterSpacing: 0em
+  body-md:
+    fontFamily: Literata
+    fontSize: 1.0625rem
+    fontWeight: '400'
+    lineHeight: 1.75rem
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Literata
+    fontSize: 0.9375rem
+    fontWeight: '400'
+    lineHeight: 1.5rem
+    letterSpacing: 0em
+  label-md:
+    fontFamily: Bricolage Grotesque
+    fontSize: 0.875rem
+    fontWeight: '600'
+    lineHeight: 1.25rem
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Bricolage Grotesque
+    fontSize: 0.75rem
+    fontWeight: '600'
+    lineHeight: 1rem
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.5rem
+  DEFAULT: 1rem
+  md: 1.5rem
+  lg: 2rem
+  xl: 3rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 3rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.75rem
+  space-xl: 3rem
+---
+
+## Brand & Style
+The design system articulates an expressive, contemporary writer persona. It fuses breezy modern digital clarity with the intimate, timeless tactile warmth of literary craft. The visual language balances playful, animated typographic display moments with disciplined editorial gravitas.
+
+Designed specifically for an independent writer, journalist, and content strategist presenting work to discerning editors and clients, the UI evokes clarity, intellectual curiosity, and calm assurance. The style relies on clean editorial minimalism enhanced by cloud-soft rounded surfaces, ethereal sky-blue atmosphere, deliberate white space, and featherweight borders. It eliminates clutter so prose and case studies command uninterrupted focus.
+
+## Colors
+The palette is built upon radiant daylight and crisp writing paper. 
+
+- **Primary (`#38BDF8`)**: Soft, vibrant sky blue. Represents clarity, fresh ideas, and playful interaction points. Used for focal highlights, active states, key tags, and subtle focus glows.
+- **Secondary (`#2563EB`)**: Anchor cobalt blue. Provides high-contrast readability and authoritative presence for text links, interactive button fills, and primary calls to action.
+- **Tertiary (`#E0F2FE`)**: Pale atmospheric sky mist. Serves as a soothing background tint for callouts, tag containers, subtle badge fills, and hover washes.
+- **Neutral (`#1E293B`)**: Deep slate ink. Replaces harsh true-black for body copy and core headings, offering soft, comfortable contrast against pure white (`#FFFFFF`) and warm canvas paper (`#F8FAFC`).
+
+Tint transitions and borders rely on slate tones reduced to 8%–12% opacity to maintain lightness.
+
+## Typography
+The system creates tension and harmony through typographic juxtaposition:
+- **Headlines & Display (`Bricolage Grotesque`)**: Provides wit, confident personality, and contemporary charm. Its eccentric curves balance modern digital aesthetics with structural personality.
+- **Body & Longform (`Literata`)**: Engineered specifically for sustained digital reading. Delivers warm serifs, comfortable proportions, and bookish elegance suitable for articles, case narratives, and bio excerpts.
+- **Labels & Microcopy (`Bricolage Grotesque`)**: Retains clean functional precision and crisp legibility for navigational items, metadata tags, dates, and buttons.
+
+## Layout & Spacing
+A 12-column responsive fluid grid aligns content with a maximum reading boundary of 1200px for structural pages and a focused 720px column for longform prose.
+
+- **Desktop (1024px+)**: 12 columns, 1.5rem gutter, 3rem page margins. Ample breathing room between narrative sections (`space-xl` scaled to multiples of 48px–96px) invites unhurried reading.
+- **Tablet (768px – 1023px)**: 8 columns, 1.5rem gutter, 2rem page margins. Secondary sidebars collapse into vertical sequences below core content.
+- **Mobile (up to 767px)**: 4 columns, 1rem gutter, 1.25rem margins. Stacked single-column layouts prioritize headline hierarchy and thumb-friendly interaction heights.
+
+## Elevation & Depth
+Elevation emphasizes featherlight, atmospheric layering rather than stark physical shadows:
+
+- **Surface Layering**: The primary foundation rests on `#F8FAFC`, while elevated content containers sit atop pristine white (`#FFFFFF`).
+- **Ambient Shadows**: Shadows simulate daylight bouncing through clear atmosphere. They use wide diffusion radii (16px to 32px), exceptionally low opacity (4% to 8%), and a faint slate tint (`rgba(30, 41, 59, 0.05)`).
+- **Subtle Boundaries**: Containers and cards employ a featherweight border (`1px solid rgba(226, 232, 240, 0.8)`) to maintain crisp separation against soft backgrounds without visually cluttering the viewport.
+- **Interactive Depth**: On hover, interactive cards do not pop aggressively upward; rather, they transition smoothly into a soft sky glow (`rgba(56, 189, 248, 0.18)` blur) and micro-lift by 2px.
+
+## Shapes
+The shape language implements a pill-shaped and cloud-curved aesthetic (level `3`).
+
+- Buttons, badges, tags, and input perimeters adopt continuous stadium pill curves (`border-radius: 9999px` / `1rem` on base components).
+- Portfolio preview cards, modal dialogues, and floating navigation bars adopt generous, pillowy radii (`rounded-lg: 2rem`, `rounded-xl: 3rem`), mirroring soft cloud forms and balancing the scholarly edge of the serif body type.
+
+## Components
+
+### Buttons
+- **Primary**: Solid cobalt background (`#2563EB`), crisp white text, pill curvature (`9999px`), padding `0.75rem 1.75rem`. Hover shifts to deep blue (`#1D4ED8`) with an atmospheric glow.
+- **Secondary / Soft**: Pale sky fill (`#E0F2FE`), cobalt text (`#2563EB`), pill curvature. Hover brings a solid border tint (`#38BDF8`) and gentle wash.
+- **Tertiary / Ghost**: Transparent base, slate text (`#1E293B`), underlines only appear on focus/hover via an organic sky-blue underline flourish.
+
+### Cards (Case Studies & Articles)
+- Background: `#FFFFFF`.
+- Perimeter: 1px border (`#E2E8F0`), curvature `2rem` (`rounded-lg`), padding `2rem`.
+- Interior composition: Displays a meta pill chip, followed by a bold `Bricolage Grotesque` title, an excerpt in `Literata`, and a read-time indicator.
+- Hover response: Subtle -2px translateY, border transitions to `#BAE6FD`, and ambient shadow blooms softly.
+
+### Chips & Tags
+- Height: 2rem. Pill roundedness (`9999px`).
+- Inactive / Category: `#F1F5F9` background, `#475569` text, `label-sm` typography.
+- Active / Featured: Light sky base (`#E0F2FE`), slate blue text (`#0284C7`), 1px translucent border (`#38BDF8`).
+
+### Input Fields & Contact Elements
+- Surfaces: `#FFFFFF` or `#F8FAFC`, pill curve `1rem`, padding `0.875rem 1.5rem`.
+- Border: 1px solid `#CBD5E1`.
+- Focus State: Smooth outline shift to `#38BDF8` with a 3px ring blur of `rgba(56, 189, 248, 0.25)`.
+- Labeling: Set in `label-md` (`Bricolage Grotesque`) above the field.
+
+### Selection Controls (Checkboxes & Radios)
+- Radios: Circular, 20px diameter, thick border in `#CBD5E1`, checked state transitions to a solid `#2563EB` fill with a centered white dot.
+- Checkboxes: Pill-soft rounded square (6px radius), 20px size, filling with `#2563EB` and displaying a crisp white micro-check when toggled.
+
+### Floating Reader Bar (System Specific)
+- A pill-shaped floating top/bottom nav bar (`rounded-xl: 3rem`) using translucent frosted glass (`rgba(255, 255, 255, 0.85)` + 12px blur), framed with a 1px border (`rgba(224, 242, 254, 0.8)`). Contains navigation links and a quick-action "Hire Me" pill button.

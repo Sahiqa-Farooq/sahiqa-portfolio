@@ -1,0 +1,8 @@
+{
+  "name": "Content Writer & Strategist Portfolio",
+  "description": "An elegant, responsive portfolio website for a content writer, journalist, and narrative strategist featuring case studies, selected publications, editorial services, and inquiry form.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
